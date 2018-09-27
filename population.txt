@@ -1,6 +1,4 @@
-GEO.id,GEO.id2,GEO.display-label,rescen42010,resbase42010,respop72010,respop72011,respop72012,respop72013,respop72014,respop72015,respop72016,respop72017
-Id,Id2,Geography,"April 1, 2010 - Census","April 1, 2010 - Estimates Base",Population Estimate (as of July 1) - 2010,Population Estimate (as of July 1) - 2011,Population Estimate (as of July 1) - 2012,Population Estimate (as of July 1) - 2013,Population Estimate (as of July 1) - 2014,Population Estimate (as of July 1) - 2015,Population Estimate (as of July 1) - 2016,Population Estimate (as of July 1) - 2017
-310M300US10100,10100,"Aberdeen, SD Micro Area",40602,40602,40719,41007,41576,42255,42326,42502,42856,43097
+I310M300US10100,10100,"Aberdeen, SD Micro Area",40602,40602,40719,41007,41576,42255,42326,42502,42856,43097
 310M300US10140,10140,"Aberdeen, WA Micro Area",72797,72804,72851,72366,71792,71066,70818,71065,71625,72697
 310M300US10180,10180,"Abilene, TX Metro Area",165252,165248,165583,166633,167452,167426,168143,169478,169733,170219
 310M300US10220,10220,"Ada, OK Micro Area",37492,37492,37601,37749,38068,38158,38288,38331,38443,38224
