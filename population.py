@@ -8,9 +8,8 @@ c.execute('''CREATE TABLE census (geography text, base int, estimate int,
                 year5 int, year6 int, year7 int)''')
 
 pop = open('population.txt','r',encoding='ascii',errors='ignore')
-count = 0
+
 for line in pop:
-    count+=1
     myLine = line.strip().split(',')
 
     zipCode = myLine[1] #effective unique identifier
@@ -31,6 +30,8 @@ for line in pop:
     c.executemany("INSERT INTO census VALUES (?,?,?,?,?,?,?,?,?,?,?)", census)
 conn.commit()
 
-
 pop.close()
 conn.close()
+
+print('''Your query for the population by metropolitan is of the form: ''',
+      'TABLE census (geography text, base int, estimate int, year0 int, year1 int, year2 int, year3 int, year4 int, year5 int, year6 int, year7 int)')
