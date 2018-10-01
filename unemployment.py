@@ -17,15 +17,16 @@ d.execute('CREATE TABLE stat (county int, rate17 int, rate16 int, rate15 int, ra
 pop = open('unemployment.txt','r',encoding='ascii',errors='ignore')
 
 def numConverter(str2num):
-    if type(str2num) == str:
-        return
-    else:
-        return int(str2num)
+    try:
+        num = int(str2num)
+        return num
+    except:
+        pass
 
 for line in pop:
     myLine = line.strip().split(',')
     county = myLine[2] + myLine[3]#string
-    
+
     year17 = numConverter(myLine[4])
     year16 = numConverter(myLine[5])
     year15 = numConverter(myLine[7])
@@ -48,8 +49,8 @@ conn1.commit()
 conn2.commit()
     
 pop.close()
-conn1.close()
-conn2.close()
+#conn1.close()
+#conn2.close()
 
 print('''Your query for the county and it's labor force population is of the form: ''',
       'TABLE proletariat (county text, year17 int, year16 int, year15 int, year14 int, year13 int)')

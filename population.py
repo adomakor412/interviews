@@ -31,7 +31,7 @@ for line in pop:
 conn.commit()
 
 pop.close()
-conn.close()
+#conn.close()
 
 print('''Your query for the population by metropolitan is of the form: ''',
       'TABLE census (geography text, base int, estimate int, year0 int, year1 int, year2 int, year3 int, year4 int, year5 int, year6 int, year7 int)')

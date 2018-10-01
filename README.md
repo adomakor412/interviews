@@ -1,5 +1,5 @@
 # interviews
-computer programming prep for software related interviews in industry
+Beta submission for data.gov query using PYTHON 3
 
 Metropolitan | Year | Population
 https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=PEP_2017_PEPANNRES&prodType=table
